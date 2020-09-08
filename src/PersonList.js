@@ -24,7 +24,7 @@ export default class PersonList extends React.Component {
               <img className="card-img-top" src={cars.imgUrl} alt="" />
               <div className="card-body">
                 <h4 className="card-title">{cars.make}</h4>
-                <p className="card-text">{cars.description}</p>
+                <p className="card-text">{cars.description.substr(0, 10)}</p>
               </div>
             </div>
           </div>
