@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Axios from "axios";
-import PersonList from "./PersonList";
+import Cars from "./Cars";
 
 class App extends React.Component {
   Hello() {
@@ -21,7 +21,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="text-center container-fluid">
-        <PersonList />
+        <Cars />
       </div>
     );
   }
